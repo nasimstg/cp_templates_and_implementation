@@ -185,7 +185,7 @@ void dfs(int u) {
 
 void solve() {
     read(n,m);
-    for (m) {
+    FOR(m) {
         int u, v; read(u,v)
         adj[u].pb(v);
         adj[v].pb(u);
